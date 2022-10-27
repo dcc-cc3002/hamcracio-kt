@@ -21,5 +21,5 @@ class IntegralAdapter {
      * @return  The value of the integral
      */
     fun integrate(name: String, f: (Double) -> Double, from: Double, to: Double) =
-        hamster.hamham(name, f, from, to)
+        hamster.hamham(f, from, to)
 }
